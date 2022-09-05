@@ -1,0 +1,8 @@
+spec:
+  rules:
+    - host: cockroachdb.viniciusschulz.com.br
+      http:
+        paths:
+          - backend:
+              serviceName: cockroachdb
+              servicePort: 8080
